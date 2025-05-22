@@ -6,6 +6,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- (Optional) Use CSS or JS implementation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,9 +23,268 @@
 
 <body>
     <header>
-        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand w-auto" href="#">Logo</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-current="page">Anagrafica Utenti
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
     </header>
-    <main></main>
+    <main>
+        <div class="container border border-primary m-0-auto mt-5">
+            <div class="title_row pb-5 d-flex justify-content-between align-items-center">
+                <h1>Catalogo Libri</h1>
+                <div class="button"><a class="btn btn-primary" href="#" role="button">Button</a></div>
+
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <table class="table table-striped ">
+                        <thead>
+                            <tr>
+                                <th>Titolo</th>
+                                <th class="d-none d-md-table-cell">Data Prestito</th>
+                                <th>Stato</th>
+                                <th class="text-center">Azioni</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-50">Titolo del livbro</td>
+                                <td class="d-none d-md-table-cell">data prestito</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm py-0 ">
+                                        Disponibile</button>
+                                </td>
+                                <td class="d-flex justify-content-center gap-2"><button type="button"
+                                        class="btn btn-outline-secondary "><i class="fa fa-pencil "
+                                            aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-trash"
+                                            aria-hidden="true"></i>
+                                    </button>
+
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+
+    </main>
     <footer>
         <!-- place footer here -->
     </footer>
